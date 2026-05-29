@@ -21,9 +21,9 @@ export const kvmextProduct: Product = {
   keywords:
     "uConsole, rozszerzenie KVM, przenośny KVM, Clockwork uConsole",
   heroImage:
-    'https://assets.openterface.com/images/uconsole-kvm-extension/uconsole-kvm-extension-1.webp',
+    'https://assets.openterface.com/images/cover/uconsole.webp',
   heroImages: [
-    'https://assets.openterface.com/images/uconsole-kvm-extension/uconsole-kvm-extension-1.webp',
+    'https://assets.openterface.com/images/cover/uconsole.webp',
     'https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension.webp',
   ],
   buyLabel: "Dowiedz się więcej",
