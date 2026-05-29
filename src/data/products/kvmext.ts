@@ -10,47 +10,47 @@ const KVMEXT_SHOP =
  */
 export const kvmextProduct: Product = {
   slug: 'uconsole-kvm-extension',
-  title: "uConsole KVM Extension",
-  slogan: "KVM-Power für Ihre uConsole",
-  subtitle: "Verwandeln Sie die tragbare uConsole in ein vollwertiges KVM-Terminal.",
+  title: "Rozszerzenie KVM dla uConsole",
+  slogan: "Moc KVM dla Twojego uConsole",
+  subtitle: "Zmień przenośny uConsole w pełnoprawny terminal KVM.",
   status: 'oshwa',
   description:
-    "Eine Hardware-Erweiterung, die der Clockwork uConsole KVM-over-USB-Funktionalität verleiht. Perfekt für mobile IT-Arbeiten mit integrierter Tastatur und Display.",
+    "Rozszerzenie sprzętowe dodające funkcjonalność KVM-over-USB do Clockwork uConsole. Idealne do mobilnej pracy IT z wbudowaną klawiaturą i wyświetlaczem.",
   seoDescription:
-    "Die uConsole KVM Extension fügt der tragbaren Clockwork uConsole KVM-over-USB hinzu.",
+    "Rozszerzenie KVM dla uConsole dodaje KVM-over-USB do przenośnego komputera Clockwork uConsole.",
   keywords:
-    "uConsole, KVM-Erweiterung, portabler KVM, Clockwork uConsole",
+    "uConsole, rozszerzenie KVM, przenośny KVM, Clockwork uConsole",
   heroImage:
     'https://assets.openterface.com/images/uconsole-kvm-extension/uconsole-kvm-extension-1.webp',
   heroImages: [
     'https://assets.openterface.com/images/uconsole-kvm-extension/uconsole-kvm-extension-1.webp',
     'https://assets.openterface.com/images/product/openterface-kvm-uconsole-extension.webp',
   ],
-  buyLabel: "Mehr erfahren",
+  buyLabel: "Dowiedz się więcej",
   buyHref: KVMEXT_SHOP,
   painPoints: [
-    "Tragbare Konsolen verfügen nicht über integriertes KVM für Headless-Ziele",
-    "Techniker im Außeneinsatz wünschen sich ein Gerät für alles",
+    "Przenośne konsole nie mają zintegrowanego KVM dla urządzeń bezmonitorowych",
+    "Technicy terenowi chcą jednego urządzenia do wszystkiego",
   ],
   solutions: [
-    "Native Erweiterungskarte im uConsole-Formfaktor",
-    "Vollständiger Openterface KVM-Stack auf einem taschengroßen Gerät",
+    "Płytka rozszerzeniowa w natywnym formacie uConsole",
+    "Pełny stos KVM Openterface na urządzeniu mieszczącym się w kieszeni",
   ],
   hwFeatures: [
-    { title: "uConsole nativ", description: "Speziell für die Clockwork uConsole entwickelt." },
-    { title: "Kompakte Leiterplatte", description: "Wird im Gehäuse der uConsole installiert." },
+    { title: "Natywny dla uConsole", description: "Zaprojektowany specjalnie dla Clockwork uConsole." },
+    { title: "Kompaktowa płytka PCB", description: "Montaż wewnątrz obudowy uConsole." },
   ],
   swFeatures: [
-    { title: "Openterface Apps", description: "Dieselbe vertrauenswürdige Software wie für Mini-KVM und KVM-GO." },
-    { title: "Einrichtungsleitfäden", description: "Schritt-für-Schritt-Dokumentation zur Hardware- und Software-Installation." },
+    { title: "Aplikacje Openterface", description: "To samo sprawdzone oprogramowanie co w Mini-KVM i KVM-GO." },
+    { title: "Przewodniki konfiguracji", description: "Dokumentacja instalacji sprzętowej i programowej krok po kroku." },
   ],
   specs: [
-    { label: "Kompatibilität", value: "Clockwork uConsole" },
-    { label: "Zertifizierung", value: "OSHWA-zertifiziert" },
+    { label: "Kompatybilność", value: "Clockwork uConsole" },
+    { label: "Certyfikacja", value: "Certyfikat OSHWA" },
   ],
   useCases: [
-    "Tragbares Rechenzentrumstool",
-    "Maker & Homelab für unterwegs",
+    "Narzędzie do przenośnego centrum danych",
+    "Maker i homelab w podróży",
   ],
   useCaseCards: [
     {
@@ -83,10 +83,10 @@ export const kvmextProduct: Product = {
   latestNewsSubtitle: 'Official Open Source Hardware Association certification for the uConsole KVM Extension.',
   latestNewsLabel: 'Read on Openterface News →',
   docLinks: [
-    { label: "Hardware-Installation", href: docsPath("/product/uconsole-kvm-extension/hardware-installation/") },
-    { label: "Software-Einrichtung", href: docsPath("/product/uconsole-kvm-extension/software-setup/") },
-    { label: "Anschlussanleitung", href: docsPath("/product/uconsole-kvm-extension/connect-to-target/") },
-    { label: "FAQs", href: docsPath("/product/uconsole-kvm-extension/faq/") },
+    { label: "Instalacja sprzętowa", href: docsPath("/product/uconsole-kvm-extension/hardware-installation/") },
+    { label: "Konfiguracja oprogramowania", href: docsPath("/product/uconsole-kvm-extension/software-setup/") },
+    { label: "Jak się połączyć", href: docsPath("/product/uconsole-kvm-extension/connect-to-target/") },
+    { label: "FAQ", href: docsPath("/product/uconsole-kvm-extension/faq/") },
   ],
   legacyBase: "/products/uconsole-kvm-extension/",
 };
