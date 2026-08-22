@@ -9,7 +9,7 @@ export const pl: KeymodLandingStrings = {
     },
     nav: {
       docs: "Dokumentacja",
-      preLaunchCta: "Przedpremierowo",
+      preLaunchCta: "Wesprzyj na Crowd Supply",
     },
     povTabs: {
       keyboard: "Klawiatura",
@@ -28,7 +28,7 @@ export const pl: KeymodLandingStrings = {
       equationEquals: "=",
       lead: "Podłącz do urządzenia docelowego. Sterowanie BLE, zero sterowników, gotowość do BIOS. Serwer, PC lub konsola. Dowolny port USB.",
       docsCta: "Dokumentacja",
-      preLaunchCta: "Przedpremierowo",
+      preLaunchCta: "Wesprzyj na Crowd Supply",
     },
     whatItIs: {
       eyebrow: "Czym jest",
@@ -49,7 +49,7 @@ export const pl: KeymodLandingStrings = {
       eyebrow: "Wybierz port",
       title: "Mini vs Plus",
       stackLine: "Ta sama aplikacja KeyCmd. Inny dongle do portu w Twoim komputerze.",
-      crowdSupplyCta: "Przedsprzedaż na Crowd Supply",
+      crowdSupplyCta: "Live na Crowd Supply",
       mini: {
         name: "KeyMod Mini",
         port: "USB-C męski → urządzenie docelowe",
@@ -127,10 +127,10 @@ export const pl: KeymodLandingStrings = {
         mediaLabel: "Widok hybrydowego układu KM Pro (miejsce na grafikę)",
       },
       proTerminal: {
-        badge: "Terminal · Podgląd",
+        badge: "Terminal",
         title: "SSH z telefonu",
-        lead: "USB przy połączeniu przewodowym. Bluetooth w serwerowni. Wersje demonstracyjne dostępne już dziś w KeyCmd.",
-        body: "Dedykowany tryb Terminal w KeyCmd: SSH przez USB ECM (Plus) lub BLE-Eth (Mini). Pełna integracja produkcyjna nastąpi po Fazie 2 oprogramowania układowego KeyMod.",
+        lead: "Otwieraj sesje SSH bezpośrednio z KeyCmd. USB przy połączeniu kablowym. Bluetooth przy racku.",
+        body: "Tryb Terminal w KeyCmd: SSH przez USB ECM (Plus) lub BLE-Eth (Mini). Działa dziś z celami macOS i Linux.",
         mediaLabel: "Sesja SSH w terminalu (transport USB, ponowne nagranie)",
       },
       composeSend: {
@@ -262,19 +262,19 @@ export const pl: KeymodLandingStrings = {
           ],
         },
         terminal: {
-          badge: "Terminal · Podgląd",
+          badge: "Terminal",
           title: "SSH z telefonu",
           body: "Dedykowany tryb Terminal uruchamia SSH przez most KeyMod. Wybierz USB dla szybkości przy maszynie lub Bluetooth, gdy jesteś po drugiej stronie pomieszczenia.",
-          experimentalHint: "Funkcja w wersji podglądowej. Bezpośrednie sesje SSH przez sprzęt KeyMod zostaną wprowadzone w Fazie 2 firmware'u.",
+          experimentalHint: "",
           demo: {
             interactiveDemoLabel: "Interaktywne demo",
-            title: "Podgląd terminala",
+            title: "Demo Terminala",
             summary: "Wypróbuj gotowe odtwarzanie sesji SSH. Nie wymaga sprzętu.",
             statusDisconnected: "Rozłączono",
             statusConnecting: "Łączenie…",
             statusConnected: "Połączono",
-            demoBleLabel: "Demo podglądowe (Bluetooth)",
-            demoUsbLabel: "Demo podglądowe (USB)",
+            demoBleLabel: "Demo (Bluetooth)",
+            demoUsbLabel: "Demo (USB)",
             transportBle: "BLE",
             transportUsb: "USB",
             uiFidelityNote: "Przybliżony interfejs. Sprawdź aplikację KeyCmd na telefonie, aby zobaczyć rzeczywistą wersję.",
@@ -290,7 +290,7 @@ export const pl: KeymodLandingStrings = {
             label: "BLE-Eth · KeyMod Mini",
             body: "Bezprzewodowe SSH, gdy Mini jest na celu. Zalecany kompaktowy format terminala. Demo podglądowe dostępne już dziś w KeyCmd.",
           },
-          notice: "KeyCmd dostarcza dziś interfejs Terminala i stos transportowy wraz z demo podglądowymi (USB i Bluetooth). Bezpośrednie sesje SSH przez sprzęt KeyMod zostaną wprowadzone po zatwierdzeniu Fazy 2 firmware'u.",
+          notice: "Tryb Terminal jest już dostępny w KeyCmd. Otwieraj sesje SSH przez most KeyMod na celach macOS i Linux. Obsługa celów Windows przez RNDIS jest w trakcie rozwoju.",
         },
       },
       gameZone: {
@@ -471,10 +471,10 @@ export const pl: KeymodLandingStrings = {
     productJourney: {
       eyebrow: "Ścieżka produktu",
       title: "Od koncepcji do Twojego biurka",
-      subtitle: "Siedem kamieni milowych już za nami. Trwa walidacja przedpremierowa. Następne w kolejce są crowdfunding i realizacja wysyłki.",
+      subtitle: "Osiem kamieni milowych osiągniętych. Ograniczone próbki inżynieryjne zostały rozdystrybuowane. Crowdfunding jest aktywny na Crowd Supply.",
       scrollHint: "← Przesuń, aby zobaczyć wcześniejsze kamienie milowe",
       nowLabel: "Teraz",
-      nowSublabel: "Faza przedpremierowa · końcowa walidacja sprzętu i firmware",
+      nowSublabel: "Crowdfunding aktywny na Crowd Supply",
       milestones: [
         {
           id: "concept",
@@ -491,8 +491,8 @@ export const pl: KeymodLandingStrings = {
         {
           id: "cs-prelaunch",
           status: "done",
-          title: "Faza przedpremierowa na Crowd Supply",
-          lead: "Strona kampanii jest już aktywna. Śledź nas, aby nie przegapić dnia premiery.",
+          title: "Kampania Crowd Supply aktywna",
+          lead: "Kampania jest aktywna. Wesprzyj KeyMod, aby zabezpieczyć swój.",
           href: keymodLinks.crowdSupply,
         },
         {
@@ -521,19 +521,16 @@ export const pl: KeymodLandingStrings = {
         },
         {
           id: "beta-2",
-          status: "upcoming",
-          variant: "beta",
-          badge: "Beta · Runda 2",
-          title: "Kolejne zaproszenia do wersji beta",
-          lead: "Szersze zamknięte testy beta na odświeżonym firmware i sprzęcie przed rozpoczęciem crowdfundingu.",
-          timingLabel: "Przed premierą",
-          href: "#updates",
+          status: "done",
+          title: "Próbki inżynieryjne rozdystrybuowane",
+          lead: "Ograniczone jednostki inżynieryjne przydzielone wczesnym wspierającym do walidacji w rzeczywistych warunkach.",
         },
         {
           id: "crowdfunding",
-          status: "upcoming",
-          title: "Start zbiórki crowdfundingowej",
-          timingLabel: "~połowa lipca 2026",
+          status: "done",
+          title: "Crowdfunding aktywny",
+          timingLabel: "Sierpień 2026",
+          href: keymodLinks.crowdSupply,
         },
         {
           id: "campaign",
@@ -577,15 +574,15 @@ export const pl: KeymodLandingStrings = {
     },
     crowdSupplyCampaign: {
       eyebrow: "Crowd Supply",
-      title: "Przedsprzedaż na Crowd Supply",
-      body: "Wesprzyj KeyMod Mini i Plus na Crowd Supply — kieszonkowe mostki USB, które zamieniają Twój telefon w bezprzewodową konsolę. Wesprzyj nas, abyśmy mogli to zrealizować!",
-      cta: "Przedsprzedaż",
+      title: "Live na Crowd Supply",
+      body: "Wesprzyj KeyMod Mini i Plus na Crowd Supply. Kieszonkowe mosty USB, które zamieniają telefon w bezprzewodową konsolę. Kampania jest aktywna.",
+      cta: "Wesprzyj kampanię",
     },
     crowdSupplySupport: {
       eyebrow: "Wesprzyj projekt",
       title: "Pomóż nam dostarczyć to, co nowe",
-      body: "Obserwuj KeyMod na Crowd Supply i wesprzyj kampanię, gdy tylko wystartuje. Eksperymentalne tryby, takie jak Agent, są wdrażane szybciej, gdy projekt wspiera więcej twórców — każdy wspierający pomaga urzeczywistnić roadmapę firmware'u.",
-      cta: "Obserwuj na Crowd Supply",
+      body: "KeyMod jest aktywny na Crowd Supply. Wesprzyj kampanię i pomóż nam budować roadmapę firmware. Tryby eksperymentalne jak Agent pojawiają się szybciej, gdy więcej twórców wspiera projekt. Każdy wspierający kupuje nam więcej czasu inżynieryjnego.",
+      cta: "Wesprzyj na Crowd Supply",
     },
     crowdSupplyOpensource: {
       eyebrow: "Otwarte z założenia",
@@ -608,7 +605,7 @@ export const pl: KeymodLandingStrings = {
       title: "Otrzymuj aktualizacje o premierze KeyMod",
       description: "Premiery produktów, nowe wersje oprogramowania i poradniki konfiguracji. Maksymalnie jeden e-mail miesięcznie. Bez spamu.",
       benefits: [
-        "Wczesny dostęp do kampanii crowdfundingowych i przedsprzedaży",
+        "Bezpośredni dostęp do kampanii Crowd Supply",
         "Poradniki konfiguracji i informacje o wydaniach KeyCmd",
         "Możliwość wypisania się w dowolnej chwili jednym kliknięciem",
       ],
